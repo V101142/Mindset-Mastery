@@ -46,14 +46,17 @@ h1,h2 {
 
 }
 #hero-outer{
-    height: 6em;
-    width: 20em;
+    height: 600px;
+    width: 100%;
     overflow: hidden; 
 }
 #hero-image{
-    height: 6em;
-    width: 20em;
-    background: url('../images/hero.jpg') no-repeat center center;
+    background-image: url(../images/hero.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+    width: 100%;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
