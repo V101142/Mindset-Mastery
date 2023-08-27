@@ -22,15 +22,31 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <div id="hero-image></div>
+    <section id="hero-outer">
+        <div id="hero-image"></div>
     </section>
-    
-    <footer id="footer">
-        <ul>
-        <li><a href="index.html">instagram</a></li>
-        <li><a href="about.html">facebook</a></li>
-        <li><a href="gallery.html">other</a></li>
-                </footer>
+   
+    <link rel="stylesheet" href="assets/css/style.css">
+    <section id="sign-up">
+        <h2>Sign Up</h2>
+        <form action="/submit" method="post">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+
+
+    <footer>
+       social media links
+     </footer>
         
 </html>
