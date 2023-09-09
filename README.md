@@ -36,7 +36,7 @@ To mention Mind.com and have videos/reviews on how to implement mindless routine
 
 ## Testing
 ### How your project looks and works on different browsers and screen sizes.
-project dooes not fully adapt to different size screens but works on different browsers.
+Project does not fully adapt to different size screens but works on different browsers.
 ![image](https://github.com/V101142/Mindset-Mastery/assets/137928565/f6fd5c61-641e-425a-9bb3-5b26f651893c)
 
 
