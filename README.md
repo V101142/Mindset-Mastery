@@ -36,7 +36,8 @@ CodeAnywhere did not save code for several days and allow commit.  Lost code man
 Home page does not adapt to different size screens. 
 
 ## Accessibility of the website
-![result of accessibility scan](https://openuniv-my.sharepoint.com/:i:/r/personal/vm4747_ou_ac_uk/Documents/Desktop/Lighthouse_Accessebility%20check.PNG?csf=1&web=1&e=blepS6)
+Web is accessible- ![image](https://github.com/V101142/Mindset-Mastery/assets/137928565/85f1f9d7-72a6-4714-a04a-7bde9c3ec5fb)
+
 
 ## Validator Testing
 HTML-Fix errors and added hidden header to hero section. 
