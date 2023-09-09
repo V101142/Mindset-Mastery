@@ -1,108 +1,83 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Mindset Mastery 
 
-Welcome USER_NAME,
+Mindset mastery is a site that hopes to help people start practicing and build a routine to develop mindfulness. The site will give an understanding of what mindfulness is, why it is important, and its benefits. Mindset Mastery also includes three easy techniques to help people develop their mindfulness routines and use of www.headspace.com resources and videos as a starting point for people new to mindfulness.  
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
+### Navigation Bar
+The navigation bar has links to three pages: Home, Techniques and Sign-up page. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### The landing page image
+The landing page includes an image and welcomes the user with eye-catching animation to grab their attention. There is also a box overlay on the image to emphasize how accessible it is to start practicing mindfulness. 
 
-## Gitpod Reminders
+### Org. Ethos Section
+This section allows the user to understand the benefits of mindfulness.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### The Footer
+The footer section includes links to the relevant social media sites.
 
-`python3 -m http.server`
+### The Sign Up Page
+This page allows the user to get sign up to the site and start their journey to improve their health and well-being. 
 
-A blue button should appear to click: _Make Public_,
+## Features Left to Implement
+To add videos and wealth of eResouces and articles about mindfulness. 
+To mention Mind.com and have videos/reviews on how to implement mindless routine and benefits. 
 
-Another blue button should appear to click: _Open Browser_.
+## Testing
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## How your project looks and works on different browsers and screen sizes.
+The techniques and sign-up pages work first in the browser and adapt to different size screens. 
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Problems
+Images were not loading or showing on pages. 
+Icons downloaded from font-Awesame did not show. Tried to fix and correct the code but it wasn't successful.
+CodeAnywhere did not save code for several days and allow commit.  Lost code many times. 
+Home page does not adapt to different size screens. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Accessibility of the website
+![result of accessibility scan](https://openuniv-my.sharepoint.com/:i:/r/personal/vm4747_ou_ac_uk/Documents/Desktop/Lighthouse_Accessebility%20check.PNG?csf=1&web=1&e=blepS6)
 
-To log into the Heroku toolbelt CLI:
+## Validator Testing
+HTML-Fix errors and added hidden header to hero section. 
+CSS- No errors found. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Unfixed Bugs
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+## Deployment
+The site was deployed to GitHub pages following: 
+1. On the GitHub repository, click on"Settings" tab.
+2. Go to the "Pages" tab on the left-hand sidebar.
+3. Under "Source", click the "None" drop-down and select the "main" or "master" branch.
 
-## Release History
+GitHub Repository URL-
+https://v101142-mindset-mastery-rwh48y6xs2.us2.codeanyapp.com/#/workspaces/Mindset-Mastery
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Deployed project URL- 
+https://v101142-mindset-mastery-rwh48y6xs2.us2.codeanyapp.com/#/workspaces/Mindset-Mastery
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The live link can be found here - https://8000-v101142-mindset-mastery-rwh48y6xs2.us2.codeanyapp.com/
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Credits
+### Content
+The content for the Home and Techniques page:
+https://www.headspace.com
+https://www.mind.org.uk
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Images
+https://stock.adobe.com
+https://tiny-img.com/blog/best-image-size-for-website/
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Footer
+Referred to this site to fix code:
+https://stackoverflow.com/questions/40521248/why-is-my-footer-at-the-top-of-my-page
+The icons in the footer were taken from Font Awesome- https://fontawesome.com/
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Coding websites that I referred to help build my project:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
+https://www.cronyxdigital.com/blog/hero-image-sizing-guide-for-desktop-mobile
+https://www.w3schools.com/css/css3_object-fit.asp#:~:text=object%2Dfit%20Property-,The%20CSS%20object%2Dfit%20property%20is%20used%20to%20specify%20how,as%20much%20space%20as%20possible%22.
+https://realpython.com/python-http-server/
+https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/
