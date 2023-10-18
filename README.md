@@ -3,26 +3,26 @@
 Mindset mastery is a site that hopes to help people start practicing and build a routine to develop mindfulness. The site will give an understanding of what mindfulness is, why it is important, and its benefits. Mindset Mastery also includes three easy techniques to help people develop their mindfulness routines and use of www.headspace.com resources and videos as a starting point for people new to mindfulness.  
 
 ## Features
-![image](https://github.com/V101142/Mindset-Mastery/assets/137928565/c0f94b0c-fa47-429f-8c4d-e8d404647bb7)
+![image]()
 
 ### Navigation Bar
 The navigation bar has links to three pages: Home, Techniques and Sign-up page. 
 
 ### The landing page image
 The landing page includes an image and welcomes the user with eye-catching animation to grab their attention. There is also a box overlay on the image to emphasize how accessible it is to start practicing mindfulness. 
-![image](https://github.com/V101142/Mindset-Mastery/assets/137928565/3ce0d762-20ca-4038-835c-612b2a67729a)
+![image]()
 
 ### Org. Ethos Section
 This section allows the user to understand the benefits of mindfulness.
-![image](https://github.com/V101142/Mindset-Mastery/assets/137928565/9e7b5fd8-2f74-4ae8-bf0a-0a4ede1b539b)
+![image]()
 
 ### The Footer
 The footer section includes links to the relevant social media sites.
-![image](https://github.com/V101142/Mindset-Mastery/assets/137928565/4c1046a9-2eb1-41f5-9b58-096d4000d9fb)
+![image]()
 
 ### techniques
 This page gives a small introduction to three simple techniques and additional refers to using Headspace.com as a starting point. 
-![image](https://github.com/V101142/Mindset-Mastery/assets/137928565/562d8eb3-dcfe-4a86-960d-c9f420ae39e6)
+![image]()
 
 
 ### Sign-up
